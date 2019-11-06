@@ -22,8 +22,8 @@ ready you can merge in the change. Let's take a look at a common workflow:
     ... fix and git commit often ...
     git push origin task-566
 
-The reason we have created two new branches is to stay off of `master`.
-Keeping master clean of only upstream changes makes yours and ours lives
+The reason we have created a new branch is to stay off of `master`.
+Keeping master clean of only upstream changes makes your life and ours
 easier. You can then send us a pull request for the fix/feature. Then we can
 easily review it and merge it when ready.
 
@@ -37,7 +37,7 @@ ask you to follow.
 A critical part is that you keep the **first** line as short and sweet
 as possible. This line is important because when git shows commits and it has
 limited space or a different formatting option is used the first line becomes
-all someone might see. If your change isn't something non-trivial or there
+all someone might see. If your change is non-trivial or the
 reasoning behind the change is not obvious, then please write up an extended
 message explaining the fix, your rationale, and anything else relevant for
 someone else that might be reviewing the change. Lastly, if there is a
